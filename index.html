@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="assets/spotify.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>
+        Spotify - Web Player: Music for everyone
+        </title>
+</head>
+<body>
+
+    <!--Hero-->
+
+    <div class="hero flex bg-black">
+
+        <!--Left-panel-->
+
+        <div class="leftPanel c-white">
+
+            <!--Home-->
+
+            <div class="home radius bg-grey m-1 p-1">
+
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="logo" class="invert">
+                    <img src="assets/cross.svg" alt="cross" class="cross">
+                </div>
+
+                <ul class="list">
+
+                    <li class="listItems flex items-center bold">
+                        <img src="assets/home.svg" alt="home" class="invert">Home
+                    </li>
+                    <li class="listItems search flex items-center bold lightWhite">
+                        <img src="assets/search.svg" alt="search" class="invert">Search
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+            <!--Library-->
+
+            <div class="library radius bg-grey m-1 p-1 relative">
+                
+                <!--Heading-->
+
+                <div class="heading flex relative lightWhite">
+
+                    <img src="assets/library.svg" alt="library" class="invert headingImg">
+                    <h2 class="normal headingTitle">Your Library</h2>
+                    <img src="assets/add.svg" alt="add" class="invert small absolute">
+
+                </div>
+
+                <!--Songs-->
+
+                <div class="songs">
+
+                </div>
+
+                <!--Footer-->
+
+                <div class="footer absolute">
+
+                    <div class="links flex">
+
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/">
+                                <span>Legal</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                                <span>Safety &amp; Privacy Center</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                                <span>Privacy Policy</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                                <span>Cookies</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                                <span>About Ads</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/accessibility/">
+                                <span>Accessibility</span>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <button class="button1 absolute"><img src="assets/language.svg" alt="globe" class="invert"> English</button>
+    
+                </div>
+
+            </div>
+            
+        </div>
+
+        <!--Right-panel-->
+
+        <div class="rightPanel m-1 p-2 radius bg-grey c-white" style="margin-left: 0;">
+
+            <!--Header-->
+
+            <div class="header">
+
+                <div class="nav lightWhite">
+                    <div class="hamburger"><img src="assets/hamburger.svg" alt="hamburger"></div>
+                    <span><i class="fa-solid fa-chevron-left c-white"></i></span>
+                    <span><i class="fa-solid fa-chevron-right c-white"></i></span>
+                </div>
+
+                <div class="buttons ">
+
+                    <button class="signup lightWhite">Sign up</button>
+                    <button class="login">Log In</button>
+
+                </div>
+
+            </div>
+
+            <!--Container-->
+
+            <div class="songsContainer">
+
+                <!--Artists-->
+                <div class="artists">
+
+                    <h2 class="h2">Popular Artists</h2>
+
+                    <div class="artistsContainer">
+
+                        <div class="card card1">
+
+                            <div class="playBtn"><img src="assets/play.svg" alt=""></div>  
+                            <img src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" alt="Arijit Singh">
+                            <h3>Arijit Singh</h3>
+                            <p class="lightWhite">Artist</p>
+                        </div>
+
+                        <div class="card card1">
+
+                            <div class="playBtn"><img src="assets/play.svg" alt=""></div>  
+                            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="Pritam">
+                            <h3>Pritam</h3>
+                            <p class="lightWhite">Artist</p>
+                        </div>
+
+                        <div class="card card1">
+
+                            <div class="playBtn"><img src="assets/play.svg" alt=""></div>  
+                            <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="A.R. Rahman">
+                            <h3>A.R. Rahman</h3>
+                            <p class="lightWhite">Artist</p>
+                        </div>
+
+                        <div class="card card1">
+
+                            <div class="playBtn"><img src="assets/play.svg" alt=""></div>  
+                            <img src="https://i.scdn.co/image/ab67616100005174e1e00861cdb6bf56b14a1118" alt="Darshan Raval">
+                            <h3>Darshan Raval</h3>
+                            <p class="lightWhite">Artist</p>
+                        </div>
+
+                        <div class="card card1">
+
+                            <div class="playBtn"><img src="assets/play.svg" alt=""></div>  
+                            <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="Atif Aslam">
+                            <h3>Atif Aslam</h3>
+                            <p class="lightWhite">Artist</p>
+                        </div>
+
+                        <div class="card card1">
+
+                            <div class="playBtn"><img src="assets/play.svg" alt=""></div>  
+                            <img src="https://i.scdn.co/image/ab67616100005174eddbb664c4723f268a60d8c1" alt="Badshah">
+                            <h3>Badshah</h3>
+                            <p class="lightWhite">Artist</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Playbar-->
+
+            <div class="playbar">
+
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+
+                <div class="abovebar">
+                    <div class="audioInfo"></div>
+                    <div class="controls flex align-center justify-center">
+                        <img src="assets/previous.svg" alt="previous" class="previousBtn">
+                        <img src="assets/play-pause.svg" alt="play-pause" class="playPauseBtn">
+                        <img src="assets/next.svg" alt="next" class="nextBtn">
+                    </div>
+                    <div class="audioTimeVol">
+                        <div class="volume flex items-center">
+                            <img src="assets/volume.svg" alt="volume">
+                            <input type="range" name="volumeBar" id="volumeBar" value="10">
+                        </div>
+                        <div class="audioTime"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.border {
+    border: 2px solid hsl(0, 0%, 70%);
+    margin: 3px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.m-1 {
+    margin: 8px;
+}
+
+.p-1 {
+    padding: 20px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.h2 {
+    padding: 5px 20px;
+}
+
+.lightWhite {
+    color: hsl(0, 0%, 65%);
+}
+
+.c-white {
+    color: white;
+}
+
+.normal {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.bg-lightWhite {
+    background-color: hsl(0, 0%, 65%);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* Thumb color */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Thumb color on hover */
+  }
+
+
+  
