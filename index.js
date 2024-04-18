@@ -17,12 +17,12 @@ let songPlaying = new Audio();
 let songIndex = 0;
 
 function playMusic(audio, pause=false) {
-    songPlaying.src = audio;
+    songPlaying.src = audio.filePath;
     if(!pause) {
     songPlaying.play();
     playPauseBtn.src = 'assets/pause-play.svg';
     }
-    document.querySelector(".audioInfo").innerHTML = audio.split('/songs/')[1].replaceAll('%20', ' ').split('.mp3')[0].split('(')[0];
+    document.querySelector(".audioInfo").innerHTML = audio.songName;
     document.querySelector(".audioTime").innerHTML = '00:00 / 00:00';
 }
 
@@ -37,26 +37,22 @@ function convertSecondsToMinutesAndSeconds(seconds) {
     return `${formattedMinutes}:${formattedSeconds}`;
 }
 
-async function getSongs() {
-    let a = await fetch("spotifyClone/songs/");
-    let response = await a.text();
-    let div = document.createElement("div");
-    div.innerHTML = response;
-    let links = div.getElementsByTagName("a");
-    let songsArr = [];
-    for(li of links) {
-        if(li.innerHTML.includes(".mp3")) {
-            songsArr.push(li.href);
-        }
-    }    
+function getSongs() {
+    let songsArr=[
+        {songName:"Ae Dil Hai Mushkil Title Track",filePath:"/songs/Ae Dil Hai Mushkil Title Track (From Ae Dil Hai Mushkil).mp3"},
+        {songName:"Apna Bana Le",filePath:"/songs/Apna Bana Le (From Bhediya).mp3"},
+        {songName:"Ek Tarfa",filePath:"/songs/Ek Tarfa - Reprise.mp3"},
+        {songName:"Jeena Jeena",filePath:"/songs/Jeena Jeena.mp3"},
+        {songName:"Mercy",filePath:"/songs/Mercy.mp3"},
+        {songName:"Param Sundari",filePath:"/songs/Param Sundari.mp3"}
+    ]  
     return songsArr;
 }
 
-async function main() {
+function main() {
 
     //Get srcs of all songs by href of all the anchor tags
-    songs = await getSongs();
-
+    songs = getSongs();
     document.querySelector(".playbar").style.display = "block";
 
     playPauseBtn = document.querySelector(".playPauseBtn");
@@ -68,8 +64,8 @@ async function main() {
     songs.forEach(song => {
         songsInfo.innerHTML += `<div class="songCard border p-2">
         <div class="info">
-        <span class="songName">${song.split('/songs/')[1].replaceAll('%20', ' ').split('.mp3')[0].split('(')[0]}</span>
-        <span class="songInfo">Nishit</span>
+        <span class="songName">${song.songName}</span>
+        <span class="songInfo">XYZ</span>
         </div>
         <img src="assets/play-pause.svg" alt="play" class="invert">
         </div>`;
