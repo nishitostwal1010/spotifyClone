@@ -39,12 +39,12 @@ function convertSecondsToMinutesAndSeconds(seconds) {
 
 function getSongs() {
     let songsArr=[
-        {songName:"Ae Dil Hai Mushkil Title Track",filePath:"/songs/Ae Dil Hai Mushkil Title Track (From Ae Dil Hai Mushkil).mp3"},
-        {songName:"Apna Bana Le",filePath:"/songs/Apna Bana Le (From Bhediya).mp3"},
-        {songName:"Ek Tarfa",filePath:"/songs/Ek Tarfa - Reprise.mp3"},
-        {songName:"Jeena Jeena",filePath:"/songs/Jeena Jeena.mp3"},
-        {songName:"Mercy",filePath:"/songs/Mercy.mp3"},
-        {songName:"Param Sundari",filePath:"/songs/Param Sundari.mp3"}
+        {songName:"Ae Dil Hai Mushkil Title Track",filePath:"/Ae Dil Hai Mushkil Title Track (From Ae Dil Hai Mushkil).mp3"},
+        {songName:"Apna Bana Le",filePath:"/Apna Bana Le (From Bhediya).mp3"},
+        {songName:"Ek Tarfa",filePath:"/Ek Tarfa - Reprise.mp3"},
+        {songName:"Jeena Jeena",filePath:"/Jeena Jeena.mp3"},
+        {songName:"Mercy",filePath:"/Mercy.mp3"},
+        {songName:"Param Sundari",filePath:"/Param Sundari.mp3"}
     ]  
     return songsArr;
 }
