@@ -40,8 +40,10 @@ To run this Spotify clone locally, follow these steps:
 
 ## Screenshots
 
-Screenshot 1: https://github.com/nishitostwal1010/spotifyClone/assets/157974203/fdef58f8-0a62-4864-b316-5d86cfd46d06
-Screenshot 2: https://github.com/nishitostwal1010/spotifyClone/assets/157974203/a8d1afb9-32df-4cc1-8aa6-fe50fcaf47c0
+https://github.com/nishitostwal1010/spotifyClone/assets/157974203/fdef58f8-0a62-4864-b316-5d86cfd46d06
+https://github.com/nishitostwal1010/spotifyClone/assets/157974203/a8d1afb9-32df-4cc1-8aa6-fe50fcaf47c0
+https://github.com/nishitostwal1010/spotifyClone/assets/157974203/8d9fdd05-c0f6-492c-93be-d4d7cf9ebbbc
+https://github.com/nishitostwal1010/spotifyClone/assets/157974203/19b92f61-c759-44eb-a853-88a7cbf43dd0
 
 ## Technologies Used
 
